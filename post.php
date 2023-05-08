@@ -191,7 +191,7 @@ include './head.php';
               $author_image = 'user.png';
             }
             $display = 'none';
-            if ($user_id == $_SESSION['id'] || $a_id == $_SESSION['id']) {
+            if ($user_id == $_SESSION['id']) {
               $display = 'block';
             }
             echo "<div class='comment-item'>
